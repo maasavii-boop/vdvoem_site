@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f3eddf" />
+  <title>Вдвоём — чем заняться сегодня?</title>
+  <meta name="description" content="Крутите барабан и получайте идеи для свиданий, прогулок и мини-путешествий по Москве и Московской области." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="app-shell" id="app">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Вдвоём — на главную">
+        <span class="brand-mark">♥</span>
+        <span>ВДВОЁМ</span>
+      </a>
+      <div class="top-actions">
+        <button class="ghost-btn" id="favoritesBtn" type="button" aria-label="Показать сохранённые идеи">♡ <span>сохранённые</span></button>
+      </div>
+    </header>
+
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="sticker sticker-left" aria-hidden="true">
+        <div class="fake-photo photo-walk">
+          <svg viewBox="0 0 210 140" role="img" aria-label="Две пары ног на прогулке">
+            <rect width="210" height="140" rx="16" fill="#bfd0c6"/>
+            <path d="M20 110 C58 80 85 92 110 62 C132 36 160 38 192 20" fill="none" stroke="#769889" stroke-width="16" stroke-linecap="round"/>
+            <path d="M76 40 l22 30 -22 46" fill="none" stroke="#2b2a29" stroke-width="11" stroke-linecap="round"/>
+            <path d="M120 46 l-16 32 25 36" fill="none" stroke="#4c423f" stroke-width="11" stroke-linecap="round"/>
+            <ellipse cx="70" cy="118" rx="22" ry="8" fill="#f5f0e7"/>
+            <ellipse cx="137" cy="119" rx="22" ry="8" fill="#f5f0e7"/>
+          </svg>
+        </div>
+        <p>выйти из режима<br>«ну не знаю…»</p>
+      </div>
+
+      <div class="center-stage">
+        <div class="eyebrow">идеи для двоих · без ИИ · просто работает</div>
+        <h1 id="heroTitle">Ну что,<br><span>чем займёмся?</span></h1>
+        <p class="subtitle">Выберите пару фильтров или ничего не выбирайте — барабан решит сам.</p>
+
+        <form class="filters" id="filtersForm">
+          <label>
+            <span>Где</span>
+            <select id="citySelect" name="city">
+              <option>Москва и область</option>
+              <option>Москва</option>
+              <option>Московская область</option>
+              <option>Пушкино</option>
+              <option>Мытищи</option>
+              <option>Ивантеевка</option>
+            </select>
+          </label>
+          <label>
+            <span>Бюджет</span>
+            <select id="budgetSelect" name="budget">
+              <option>Любой</option>
+              <option>Бесплатно</option>
+              <option>До 1500 ₽</option>
+              <option>До 5000 ₽</option>
+              <option>Без ограничений</option>
+            </select>
+          </label>
+          <label>
+            <span>Время</span>
+            <select id="durationSelect" name="duration">
+              <option>Любое</option>
+              <option>До 1 часа</option>
+              <option>1–2 часа</option>
+              <option>2–4 часа</option>
+              <option>Полдня+</option>
+            </select>
+          </label>
+        </form>
+
+        <div class="wheel-zone">
+          <div class="pointer" aria-hidden="true"></div>
+          <div class="wheel-wrap">
+            <div class="wheel" id="wheel" aria-label="Барабан категорий">
+              <div class="wheel-center">
+                <span>КРУТИ</span>
+                <small>что выпадет?</small>
+              </div>
+            </div>
+            <div class="wheel-labels" id="wheelLabels" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <div class="category-row" id="categoryRow" aria-label="Выбрать категорию вручную">
+          <button type="button" class="chip active" data-category="Случайно">случайно</button>
+          <button type="button" class="chip" data-category="Романтика">романтика</button>
+          <button type="button" class="chip" data-category="Еда">еда</button>
+          <button type="button" class="chip" data-category="Активное">активное</button>
+          <button type="button" class="chip" data-category="Мини-путешествие">мини-трип</button>
+        </div>
+
+        <div class="trip-panel" id="tripPanel" hidden>
+          <button type="button" class="mini-chip" data-trip-kind="format" data-trip-value="домики">домик</button>
+          <button type="button" class="mini-chip" data-trip-kind="format" data-trip-value="глэмпинг">глэмпинг</button>
+          <button type="button" class="mini-chip" data-trip-kind="format" data-trip-value="SPA">SPA</button>
+          <button type="button" class="mini-chip" data-trip-kind="setting" data-trip-value="у воды">у воды</button>
+          <button type="button" class="mini-chip" data-trip-kind="facilities" data-trip-value="баня">баня</button>
+          <button type="button" class="mini-chip" data-trip-kind="distance" data-trip-value="до 30 км">до 30 км</button>
+          <button type="button" class="mini-chip" data-trip-kind="tripLength" data-trip-value="1 ночь">1 ночь</button>
+        </div>
+
+        <button class="spin-btn" id="spinBtn" type="button">
+          <span>КРУТИТЬ</span><span class="arrow">↗</span>
+        </button>
+      </div>
+
+      <div class="sticker sticker-right" aria-hidden="true">
+        <div class="fake-photo photo-coffee">
+          <svg viewBox="0 0 210 140" role="img" aria-label="Две чашки кофе на столе">
+            <rect width="210" height="140" rx="16" fill="#ddc6b6"/>
+            <ellipse cx="73" cy="73" rx="42" ry="24" fill="#eee6de"/>
+            <ellipse cx="73" cy="73" rx="28" ry="14" fill="#6f4b39"/>
+            <ellipse cx="143" cy="62" rx="38" ry="22" fill="#f4eadf"/>
+            <ellipse cx="143" cy="62" rx="25" ry="13" fill="#7b5744"/>
+            <path d="M40 110 C80 96 125 112 182 94" stroke="#b1917c" stroke-width="7" fill="none" stroke-linecap="round"/>
+            <path d="M21 26 C60 18 80 12 109 20" stroke="#f6f0e8" stroke-width="8" fill="none" stroke-linecap="round" opacity=".8"/>
+          </svg>
+        </div>
+        <p>иногда лучший план —<br>не придумывать план</p>
+      </div>
+    </section>
+
+    <aside class="result-card" id="resultCard" hidden aria-live="polite">
+      <button class="result-close" id="resultClose" type="button" aria-label="Закрыть результат">×</button>
+      <div class="result-kicker" id="resultCategory">РОМАНТИКА</div>
+      <h2 id="resultTitle">Пикник на закате</h2>
+      <p id="resultDescription">Возьмите плед, напитки и по одному любимому перекусу друг для друга.</p>
+      <div class="result-meta" id="resultMeta"></div>
+      <div class="location-list" id="locationList"></div>
+      <div class="result-actions">
+        <button class="secondary-btn" id="saveBtn" type="button">♡ сохранить</button>
+        <button class="primary-small" id="againBtn" type="button">ещё вариант →</button>
+      </div>
+    </aside>
+
+    <aside class="saved-drawer" id="savedDrawer" hidden>
+      <div class="saved-head">
+        <div><span class="saved-kicker">ВАШ СПИСОК</span><h2>Сохранённое</h2></div>
+        <button id="savedClose" class="result-close" type="button" aria-label="Закрыть">×</button>
+      </div>
+      <div id="savedList" class="saved-list"></div>
+    </aside>
+
+    <div class="toast" id="toast" hidden></div>
+  </main>
+  <script src="/app.js" defer></script>
+</body>
+</html>
