@@ -1,0 +1,3380 @@
+{
+  "market": {
+    "id": "moscow-oblast",
+    "label": "Московская область",
+    "country_code": "RU",
+    "region": "Московская область",
+    "type": "region",
+    "enabled": true,
+    "import": {
+      "provider": "osm",
+      "area": "Московская область",
+      "region": null,
+      "auto_publish": true
+    }
+  },
+  "locations": [
+    {
+      "city": "Пушкино",
+      "name": "Центральный парк",
+      "type": "парк",
+      "address": "ул. Некрасова, 3А",
+      "best_for": [
+        "Природа",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "бесплатно",
+      "subtype": "парк",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "tsentralьnyy-park",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкино",
+      "name": "Пушкинская картинная галерея Арт-Ликор",
+      "type": "галерея",
+      "address": "ул. 50 лет Комсомола, 1",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "низкий",
+      "subtype": "галерея",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "pushkinskaya-kartinnaya-galereya-art-likor",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкино",
+      "name": "Пушкинский краеведческий музей",
+      "type": "музей",
+      "address": "Московский проспект, 35А",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "низкий",
+      "subtype": "музей",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "pushkinskiy-kraevedcheskiy-muzey",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкино",
+      "name": "Киномакс",
+      "type": "кинотеатр",
+      "address": "Красноармейское ш., 104",
+      "best_for": [
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "subtype": "кинотеатр",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "kinomaks",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкино",
+      "name": "ExitGames Пушкино",
+      "type": "развлекательный центр",
+      "address": "ул. Писаревская, 5",
+      "best_for": [
+        "Игры",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "subtype": "развлекательный центр",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "необычно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "exitgames-pushkino",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкинский округ",
+      "name": "Усадьба Мураново им. Ф. И. Тютчева",
+      "type": "усадьба/музей",
+      "address": "деревня Мураново",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Природа"
+      ],
+      "budget": "низкий",
+      "subtype": "усадьба/музей",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "природа"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "usadьba-muranovo-im-f-i-tyutcheva",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищи",
+      "name": "Ква-Ква Парк",
+      "type": "аквапарк",
+      "address": "Коммунистическая ул., 1",
+      "best_for": [
+        "Активное",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "subtype": "аквапарк",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "необычно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "kva-kva-park",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищи",
+      "name": "Парк Мытищи",
+      "type": "парк",
+      "address": "Мытищи",
+      "best_for": [
+        "Природа",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "бесплатно",
+      "subtype": "парк",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-mytischi",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищи",
+      "name": "Мытищинская картинная галерея",
+      "type": "галерея",
+      "address": "Новомытищинский пр., 36/7",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "низкий",
+      "subtype": "галерея",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "mytischinskaya-kartinnaya-galereya",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищи",
+      "name": "Арена Мытищи",
+      "type": "каток/арена",
+      "address": "ул. Лётная, 17",
+      "best_for": [
+        "Активное"
+      ],
+      "budget": "средний",
+      "subtype": "каток/арена",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "arena-mytischi",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ивантеевка",
+      "name": "Городской парк культуры и отдыха",
+      "type": "парк",
+      "address": "Студенческий проезд",
+      "best_for": [
+        "Природа",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "бесплатно",
+      "subtype": "парк",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "gorodskoy-park-kulьtury-i-otdyha",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ивантеевка",
+      "name": "Ивантеевский историко-краеведческий музей",
+      "type": "музей",
+      "address": "Центральный проезд, 1",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "низкий",
+      "subtype": "музей",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "ivanteevskiy-istoriko-kraevedcheskiy-muzey",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ивантеевка",
+      "name": "Gagarin Cinema",
+      "type": "кинотеатр",
+      "address": "Советский пр., стр. 2",
+      "best_for": [
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "subtype": "кинотеатр",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "gagarin-cinema",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ивантеевка",
+      "name": "ДК Юбилейный",
+      "type": "культурный центр",
+      "address": "ул. Первомайская, 13",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "низкий",
+      "subtype": "культурный центр",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "dk-yubileynyy",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ивантеевка",
+      "name": "Дендрологический парк им. А. С. Яблокова",
+      "type": "дендропарк",
+      "address": "Ивантеевка",
+      "best_for": [
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "бесплатно",
+      "subtype": "дендропарк",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "dendrologicheskiy-park-im-a-s-yablokova",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Красногорск",
+      "name": "Музей-заповедник «Архангельское»",
+      "type": "музей-усадьба",
+      "subtype": "музей-усадьба",
+      "address": "городской округ Красногорск, Архангельское",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "дворец",
+        "парк",
+        "архитектура"
+      ],
+      "distance_from_moscow_km": 20,
+      "source": "https://welcome.mosreg.ru/places/all/podmoskovnyj-versal",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-zapovednik-arhangelьskoe",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Серпухов",
+      "name": "Приокско-Террасный государственный природный биосферный заповедник",
+      "type": "заповедник",
+      "subtype": "заповедник",
+      "address": "посёлок Данки, городской округ Серпухов",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "зубры",
+        "экотропы",
+        "лес"
+      ],
+      "distance_from_moscow_km": 100,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "prioksko-terrasnyy-gosudarstvennyy-prirodnyy-biosfernyy-zapovednik",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Серпухов",
+      "name": "Серпуховский историко-художественный музей",
+      "type": "музей",
+      "subtype": "музей",
+      "address": "Серпухов",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "живопись",
+        "архитектура"
+      ],
+      "distance_from_moscow_km": 104,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "serpuhovskiy-istoriko-hudozhestvennyy-muzey",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Коломна",
+      "name": "Коломенский кремль",
+      "type": "исторический комплекс",
+      "subtype": "исторический комплекс",
+      "address": "ул. Лажечникова, 5",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "история",
+        "прогулка",
+        "старый город"
+      ],
+      "distance_from_moscow_km": 115,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "kolomenskiy-kremlь",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Коломна",
+      "name": "Музей «Калачная»",
+      "type": "музей/гастрономия",
+      "subtype": "музей/гастрономия",
+      "address": "ул. Зайцева, 14",
+      "best_for": [
+        "Мини-путешествие",
+        "Еда",
+        "Культура"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "калачи",
+        "мастер-класс",
+        "история"
+      ],
+      "distance_from_moscow_km": 115,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "гастро",
+          "культурно"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-kalachnaya",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Коломна",
+      "name": "Музей «Коломенская пастила»",
+      "type": "музей/гастрономия",
+      "subtype": "музей/гастрономия",
+      "address": "Коломна",
+      "best_for": [
+        "Мини-путешествие",
+        "Еда",
+        "Культура"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "пастила",
+        "чаепитие",
+        "история"
+      ],
+      "distance_from_moscow_km": 115,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "гастро",
+          "культурно"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-kolomenskaya-pastila",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Зарайск",
+      "name": "Зарайский кремль",
+      "type": "кремль/музей",
+      "subtype": "кремль/музей",
+      "address": "Зарайск",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "кремль",
+        "история",
+        "старый город"
+      ],
+      "distance_from_moscow_km": 161,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "120+ км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "zarayskiy-kremlь",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Зарайск",
+      "name": "Водонапорная башня Зарайска",
+      "type": "смотровая",
+      "subtype": "смотровая",
+      "address": "Зарайск",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Культура"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "панорама",
+        "город"
+      ],
+      "distance_from_moscow_km": 161,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "120+ км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "vodonapornaya-bashnya-zarayska",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Дмитров",
+      "name": "Дмитровский кремль и исторический центр",
+      "type": "исторический комплекс",
+      "subtype": "исторический комплекс",
+      "address": "Дмитров",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "кремлёвские валы",
+        "старый город",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": 74,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "dmitrovskiy-kremlь-i-istoricheskiy-tsentr",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Дмитровский округ",
+      "name": "Ферма «Российские альпаки»",
+      "type": "ферма",
+      "subtype": "ферма",
+      "address": "деревня Походкино",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "альпаки",
+        "ферма",
+        "фото"
+      ],
+      "distance_from_moscow_km": 41,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "на ферме"
+        ],
+        "facility_tags": [
+          "животные"
+        ],
+        "vibe_tags": [
+          "необычно",
+          "природа"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "ferma-rossiyskie-alьpaki",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Истра",
+      "name": "Музей «Новый Иерусалим»",
+      "type": "музей",
+      "subtype": "музей",
+      "address": "Истра",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "выставки",
+        "архитектура",
+        "парк"
+      ],
+      "distance_from_moscow_km": 66,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-novyy-ierusalim",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Истра",
+      "name": "Воскресенский Ново-Иерусалимский монастырь",
+      "type": "исторический комплекс",
+      "subtype": "исторический комплекс",
+      "address": "Истра",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "архитектура",
+        "история",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": 66,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "voskresenskiy-novo-ierusalimskiy-monastyrь",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Истринский округ",
+      "name": "Истринская сыроварня Олега Сироты",
+      "type": "сыроварня",
+      "subtype": "сыроварня",
+      "address": "Истринский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Еда",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "сыр",
+        "дегустация",
+        "ферма"
+      ],
+      "distance_from_moscow_km": 60,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "на ферме"
+        ],
+        "facility_tags": [
+          "животные"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "необычно"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "istrinskaya-syrovarnya-olega-siroty",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Солнечногорск",
+      "name": "Озеро Сенеж",
+      "type": "озеро/набережная",
+      "subtype": "озеро/набережная",
+      "address": "Солнечногорск",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "вода",
+        "закат",
+        "велопрогулка",
+        "SUP летом"
+      ],
+      "distance_from_moscow_km": 72,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "активности на воде"
+        ],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "ozero-senezh",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Солнечногорский округ",
+      "name": "Музей-заповедник Д. И. Менделеева и А. А. Блока",
+      "type": "музей-заповедник",
+      "subtype": "музей-заповедник",
+      "address": "усадьбы Шахматово, Тараканово и Боблово",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "усадьбы",
+        "литература",
+        "парк"
+      ],
+      "distance_from_moscow_km": 75,
+      "source": "https://welcome.mosreg.ru/places/all/tri-usad-by-ob-edinennye-znamenitymi-imenami",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-zapovednik-d-i-mendeleeva-i-a-a-bloka",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Волоколамск",
+      "name": "Волоколамский кремль",
+      "type": "исторический комплекс",
+      "subtype": "исторический комплекс",
+      "address": "Волоколамск",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "архитектура",
+        "история",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": 100,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "volokolamskiy-kremlь",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Сергиев Посад",
+      "name": "Сергиево-Посадский музей-заповедник",
+      "type": "музей",
+      "subtype": "музей",
+      "address": "проспект Красной Армии, 144",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "история",
+        "выставки",
+        "старый город"
+      ],
+      "distance_from_moscow_km": 70,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "sergievo-posadskiy-muzey-zapovednik",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Сергиев Посад",
+      "name": "Парк «Скитские пруды»",
+      "type": "парк",
+      "subtype": "парк",
+      "address": "Сергиев Посад",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "пруды",
+        "прогулка",
+        "пикник"
+      ],
+      "distance_from_moscow_km": 70,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-skitskie-prudy",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Хотьково",
+      "name": "Музей-заповедник «Абрамцево»",
+      "type": "музей-усадьба",
+      "subtype": "музей-усадьба",
+      "address": "село Абрамцево",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "усадьба",
+        "искусство",
+        "парк"
+      ],
+      "distance_from_moscow_km": 60,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-zapovednik-abramtsevo",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкинский округ",
+      "name": "Музей-усадьба «Мураново» им. Ф. И. Тютчева",
+      "type": "музей-усадьба",
+      "subtype": "музей-усадьба",
+      "address": "деревня Мураново",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "усадьба",
+        "парк",
+        "литература"
+      ],
+      "distance_from_moscow_km": 50,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-usadьba-muranovo-im-f-i-tyutcheva",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Одинцовский округ",
+      "name": "Парк Малевича",
+      "type": "парк/арт-пространство",
+      "subtype": "парк/арт-пространство",
+      "address": "Одинцовский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Творчество",
+        "Романтика"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "лес",
+        "современное искусство",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": 25,
+      "source": "https://welcome.mosreg.ru/",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика",
+          "творчески"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-malevicha",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Звенигород",
+      "name": "Саввино-Сторожевский монастырь и окрестности",
+      "type": "исторический комплекс",
+      "subtype": "исторический комплекс",
+      "address": "Звенигород",
+      "best_for": [
+        "Мини-путешествие",
+        "Культура",
+        "Природа"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "история",
+        "панорамы",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": 55,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "природа"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "savvino-storozhevskiy-monastyrь-i-okrestnosti",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Пушкинский округ",
+      "name": "Глэмпинг «Под небом»",
+      "type": "глэмпинг",
+      "subtype": "глэмпинг",
+      "address": "село Тишково, Пестовское водохранилище",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "тепло",
+      "features": [
+        "сафари-тенты",
+        "вода",
+        "SUP",
+        "каяки",
+        "йога",
+        "ресторан"
+      ],
+      "distance_from_moscow_km": 30,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "Работает сезонно; проверять даты открытия.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "активности на воде",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "glemping-pod-nebom",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Талдомский округ",
+      "name": "Арт-усадьба «Веретьево»",
+      "type": "загородный отель/арт-усадьба",
+      "subtype": "арт-отель",
+      "address": "деревня Веретьево",
+      "best_for": [
+        "Мини-путешествие",
+        "Творчество",
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "лесные домики",
+        "сферы",
+        "арт-объекты",
+        "река"
+      ],
+      "distance_from_moscow_km": 102,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика",
+          "творчески"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "art-usadьba-veretьevo",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Орехово-Зуевский округ",
+      "name": "Глэмпинг NOTA BENE",
+      "type": "глэмпинг",
+      "subtype": "домики",
+      "address": "территория Песчаная, участок 2",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "чан",
+        "купель",
+        "кухня",
+        "лес",
+        "озёра"
+      ],
+      "distance_from_moscow_km": 90,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [
+          "купель"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-nota-bene",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Орехово-Зуевский округ",
+      "name": "Глэмпинг «A-Ферма»",
+      "type": "глэмпинг",
+      "subtype": "A-frame",
+      "address": "посёлок Авсюнино",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "панорамные окна",
+        "озеро",
+        "баня",
+        "купель",
+        "мини-кухня"
+      ],
+      "distance_from_moscow_km": 100,
+      "source": "https://welcome.mosreg.ru/oteli/uutnyj-otdyh-v-lesu",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг"
+        ],
+        "setting_tags": [
+          "на ферме",
+          "у воды"
+        ],
+        "facility_tags": [
+          "баня",
+          "животные",
+          "купель"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "glemping-a-ferma",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Клинский округ",
+      "name": "Экоотель «Изумрудный лес»",
+      "type": "экоотель/SPA",
+      "subtype": "SPA-отель",
+      "address": "вблизи посёлка Нарынка",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейн",
+        "лес",
+        "озеро",
+        "коттеджи",
+        "сафари-парк"
+      ],
+      "distance_from_moscow_km": 81,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн",
+          "животные"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "ekootelь-izumrudnyy-les",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Видное",
+      "name": "Palmira Garden Hotel & SPA",
+      "type": "SPA-отель",
+      "subtype": "SPA-отель",
+      "address": "ул. Школьная, 92",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "панорамные бассейны",
+        "SPA",
+        "банный комплекс",
+        "парк"
+      ],
+      "distance_from_moscow_km": 8,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "баня",
+          "бассейн"
+        ],
+        "vibe_tags": [
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "palmira-garden-hotel-and-spa",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Солнечногорск",
+      "name": "Бутик-отель «Сенешаль»",
+      "type": "бутик-отель/SPA",
+      "subtype": "SPA-отель",
+      "address": "Тимоновское шоссе, строение 3",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "озеро Сенеж",
+        "банно-термальный SPA",
+        "яхта летом",
+        "йога"
+      ],
+      "distance_from_moscow_km": 54,
+      "source": "https://welcome.mosreg.ru/stories/lucsie-podmoskovnye-oteli-i-bazy-otdyha-u-vody",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "SPA",
+          "активности на воде"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "butik-otelь-seneshalь",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Солнечногорский округ",
+      "name": "Дачный отель «Истра Holiday»",
+      "type": "загородный отель/SPA",
+      "subtype": "SPA-отель",
+      "address": "деревня Трусово, база отдыха «Березки», стр. 19",
+      "best_for": [
+        "Мини-путешествие",
+        "Активное",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейн",
+        "сауны",
+        "SUP",
+        "лодки",
+        "коттеджи"
+      ],
+      "distance_from_moscow_km": 60,
+      "source": "https://welcome.mosreg.ru/stories/lucsie-podmoskovnye-oteli-i-bazy-otdyha-u-vody",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "активности на воде",
+          "бассейн"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "dachnyy-otelь-istra-holiday",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Рузский округ",
+      "name": "LES Art Resort",
+      "type": "загородный SPA-отель",
+      "subtype": "SPA-отель",
+      "address": "район Дорохово, Минское шоссе",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейны",
+        "загородный отдых"
+      ],
+      "distance_from_moscow_km": 95,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "les-art-resort",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Рузский округ",
+      "name": "Глэмпинг «Рузская Аляска»",
+      "type": "глэмпинг",
+      "subtype": "глэмпинг",
+      "address": "Рузский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "природа",
+        "домики",
+        "активности"
+      ],
+      "distance_from_moscow_km": 84,
+      "source": "https://welcome.mosreg.ru/places/glampings",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "необычно",
+          "природа"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-ruzskaya-alyaska",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Рузский округ",
+      "name": "Экоотель «Юрта»",
+      "type": "экоотель/глэмпинг",
+      "subtype": "юрты/домики",
+      "address": "посёлок Брикет, территория Лодочная станция, стр. 1",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "юрты",
+        "домик на озере",
+        "домик на дереве",
+        "баня",
+        "квадроциклы"
+      ],
+      "distance_from_moscow_km": 90,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [
+          "баня",
+          "спорт"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "ekootelь-yurta",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Можайский округ",
+      "name": "Глэмпинг «Модная коза»",
+      "type": "глэмпинг",
+      "subtype": "домики",
+      "address": "Можайский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Еда",
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "лес",
+        "мини-ферма",
+        "сыроварня",
+        "кафе"
+      ],
+      "distance_from_moscow_km": 115,
+      "source": "https://welcome.mosreg.ru/oteli/glemping-modnaa-koza",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "на ферме"
+        ],
+        "facility_tags": [
+          "животные",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-modnaya-koza",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Истринский округ",
+      "name": "M’Istra’L Hotel & SPA",
+      "type": "SPA-отель",
+      "subtype": "SPA-отель",
+      "address": "Истринский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "загородный отдых"
+      ],
+      "distance_from_moscow_km": 60,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "mistral-hotel-and-spa",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Одинцовский округ",
+      "name": "Barvikha Hotel & SPA",
+      "type": "SPA-отель",
+      "subtype": "SPA-отель",
+      "address": "Барвиха, Одинцовский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "премиум-отдых"
+      ],
+      "distance_from_moscow_km": 8,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA"
+        ],
+        "vibe_tags": [
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "barvikha-hotel-and-spa",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищинский округ",
+      "name": "Артурс Spa Hotel by Mercure",
+      "type": "SPA-отель",
+      "subtype": "SPA-отель",
+      "address": "городской округ Мытищи",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейн",
+        "загородный отдых"
+      ],
+      "distance_from_moscow_km": 24,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "arturs-spa-hotel-by-mercure",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищинский округ",
+      "name": "Sunset Beach Glamping",
+      "type": "глэмпинг на воде",
+      "subtype": "глэмпинг",
+      "address": "посёлок Менжинец, ул. Планерная, 41Л",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "тепло",
+      "features": [
+        "Икшинское водохранилище",
+        "панорамный вид",
+        "SUP",
+        "баня",
+        "домики на понтонах"
+      ],
+      "distance_from_moscow_km": 25,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "активности на воде",
+          "баня"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "sunset-beach-glamping",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Талдомский округ",
+      "name": "Шале-отель «Кроличья нора»",
+      "type": "шале-отель",
+      "subtype": "шале",
+      "address": "деревня Коришево, 25А",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "река Дубна",
+        "баня",
+        "купель",
+        "SUP",
+        "ресторан на воде"
+      ],
+      "distance_from_moscow_km": 110,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "активности на воде",
+          "баня",
+          "купель",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "shale-otelь-krolichьya-nora",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Чеховский округ",
+      "name": "Резиденция ЧЕХОВ#APi",
+      "type": "глэмпинг/арт-резиденция",
+      "subtype": "глэмпинг",
+      "address": "муниципальный округ Чехов, Стремиловский территориальный отдел",
+      "best_for": [
+        "Мини-путешествие",
+        "Творчество",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "квадродома",
+        "шатры",
+        "баня",
+        "арт-резиденция"
+      ],
+      "distance_from_moscow_km": 70,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "баня"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика",
+          "творчески"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "rezidentsiya-chehovapi",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Серпуховский округ",
+      "name": "Парк-отель «Воздвиженское» — экодома",
+      "type": "парк-отель/глэмпинг",
+      "subtype": "эко-дома",
+      "address": "посёлок Дома отдыха «Авангард», стр. 1",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейны",
+        "пруды",
+        "банный комплекс",
+        "вейк-парк"
+      ],
+      "distance_from_moscow_km": 75,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "глэмпинг",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [
+          "SPA",
+          "активности на воде",
+          "баня",
+          "бассейн"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "park-otelь-vozdvizhenskoe-ekodoma",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Звенигород",
+      "name": "Клуб «ОК-Река»",
+      "type": "кемпинг/домики",
+      "subtype": "бунгало/домики",
+      "address": "Луцинское шоссе, 5, стр. 1",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "Москва-река",
+        "баня",
+        "сауна",
+        "велосипеды",
+        "рыбалка"
+      ],
+      "distance_from_moscow_km": 55,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "баня",
+          "спорт"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "klub-ok-reka",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Истринский округ",
+      "name": "Истра Кемпинг",
+      "type": "кемпинг/домики",
+      "subtype": "кемпинг/домики",
+      "address": "Истринское водохранилище, деревня Дьяково, пансионат «Высотка»",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Активное"
+      ],
+      "budget": "низкий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "лес",
+        "водохранилище",
+        "баня",
+        "лодки",
+        "рыбалка"
+      ],
+      "distance_from_moscow_km": 65,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "домики"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [
+          "активности на воде",
+          "баня"
+        ],
+        "vibe_tags": [
+          "активно",
+          "природа"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "istra-kemping",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Серпуховский округ",
+      "name": "Петрухино-клуб",
+      "type": "загородный клуб",
+      "subtype": "отель/купольные домики",
+      "address": "деревня Всходы, 90",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Активное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "лес",
+        "конный клуб",
+        "рыбалка",
+        "верёвочный парк"
+      ],
+      "distance_from_moscow_km": 95,
+      "source": "https://welcome.mosreg.ru/stories/kuda-poekhat-v-podmoskovie",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [
+          "спорт"
+        ],
+        "vibe_tags": [
+          "активно",
+          "природа"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "petruhino-klub",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ногинск",
+      "name": "Экоотель «Богородск & SPA»",
+      "type": "экоотель/SPA",
+      "subtype": "SPA-отель",
+      "address": "ул. Тихая, 1А",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейн",
+        "сауны",
+        "соляная пещера",
+        "пруд"
+      ],
+      "distance_from_moscow_km": 35,
+      "source": "https://welcome.mosreg.ru/oteli/ekotel-bogorodsk",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "ekootelь-bogorodsk-and-spa",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Дмитровский округ",
+      "name": "Tseleevo Club & Resort",
+      "type": "загородный отель",
+      "subtype": "курорт",
+      "address": "Дмитровский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Активное",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "загородный отдых",
+        "спорт",
+        "природа"
+      ],
+      "distance_from_moscow_km": 42,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [
+          "спорт"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "tseleevo-club-and-resort",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Домодедовский округ",
+      "name": "Парк-отель «Атлас»",
+      "type": "парк-отель",
+      "subtype": "парк-отель",
+      "address": "городской округ Домодедово",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "загородный отдых"
+      ],
+      "distance_from_moscow_km": 29,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "park-otelь-atlas",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Химки",
+      "name": "Art Village Club",
+      "type": "парк-отель",
+      "subtype": "парк-отель",
+      "address": "городской округ Химки",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "дизайнерские номера",
+        "загородный отдых"
+      ],
+      "distance_from_moscow_km": 15,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "art-village-club",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Сергиев Посад",
+      "name": "Русские Сезоны Курорт Пересвет",
+      "type": "курортный отель",
+      "subtype": "курорт",
+      "address": "Сергиево-Посадский городской округ, Пересвет",
+      "best_for": [
+        "Мини-путешествие",
+        "Активное",
+        "Романтика"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "спорт",
+        "бассейн"
+      ],
+      "distance_from_moscow_km": 78,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн",
+          "спорт"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "russkie-sezony-kurort-peresvet",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Сергиево-Посадский округ",
+      "name": "Русские Сезоны Курорт Пересвет",
+      "type": "курортный отель",
+      "subtype": "resort / SPA / коттеджи",
+      "address": "г. Пересвет, ул. Пионерская, 9, 12",
+      "best_for": [
+        "Мини-путешествие",
+        "Активное",
+        "Романтика",
+        "SPA"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "8 отелей",
+        "коттеджи Les Villages",
+        "SPA",
+        "термальная зона",
+        "бани",
+        "несколько бассейнов",
+        "infinity-бассейн",
+        "спорт",
+        "озеро",
+        "рестораны"
+      ],
+      "distance_from_moscow_km": 78,
+      "source": "https://peresvethotel.ru/",
+      "notes": "Большой курорт: можно выдавать как сценарий на 1–2 ночи или SPA-день.",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "домики",
+          "отель"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн",
+          "ресторан",
+          "спорт"
+        ],
+        "vibe_tags": [
+          "активно",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "russkie-sezony-kurort-peresvet",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Мытищинский округ",
+      "name": "Глэмпинг «Сила ветра»",
+      "type": "глэмпинг",
+      "subtype": "скандинавские домики у воды",
+      "address": "база «Березки», акватория Пироговского водохранилища",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа",
+        "Активное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "первая линия у воды",
+        "панорамные домики",
+        "яхтинг",
+        "барбекю",
+        "настольные игры"
+      ],
+      "distance_from_moscow_km": 11,
+      "source": "https://welcome.mosreg.ru/oteli/glemping-sila-vetra",
+      "notes": "Очень близко к Москве; хорош для короткого побега на 1 ночь.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "активности на воде"
+        ],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-sila-vetra",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ленинский округ",
+      "name": "Глэмпинг парк-отеля «Остров»",
+      "type": "глэмпинг",
+      "subtype": "глэмпинг при парк-отеле",
+      "address": "Ленинский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "загородный отдых",
+        "природа",
+        "короткая поездка"
+      ],
+      "distance_from_moscow_km": 13,
+      "source": "https://welcome.mosreg.ru/places/glampings",
+      "notes": "Близкий вариант для одной ночи без долгой дороги.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-park-otelya-ostrov",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Шаховской округ",
+      "name": "Глэмпинг «А у реки»",
+      "type": "глэмпинг",
+      "subtype": "домики у реки",
+      "address": "Шаховской городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "река",
+        "уединение",
+        "природа",
+        "домики"
+      ],
+      "distance_from_moscow_km": 140,
+      "source": "https://welcome.mosreg.ru/places/glampings",
+      "notes": "Для более дальнего уикенда и тишины.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "120+ км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-a-u-reki",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ступино",
+      "name": "Глэмпинг «Вили Улей Ока»",
+      "type": "глэмпинг",
+      "subtype": "модули в сосновом лесу",
+      "address": "ул. Вертолетная (+ 500 м), Ступино",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа",
+        "Еда"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "сосновый лес",
+        "залив Оки",
+        "уединённые пляжи",
+        "панорамные окна",
+        "душ и туалет в модуле",
+        "печь",
+        "питание",
+        "баня",
+        "кино под открытым небом"
+      ],
+      "distance_from_moscow_km": 98,
+      "source": "https://welcome.mosreg.ru/oteli/glemping-vili-ulej-oka",
+      "notes": "Сильный вариант для романтической ночёвки.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "у воды"
+        ],
+        "facility_tags": [
+          "баня",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "glemping-vili-uley-oka",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Волоколамский округ",
+      "name": "Глэмпинг «Багио»",
+      "type": "глэмпинг",
+      "subtype": "купольные сферы",
+      "address": "сельское поселение Теряевское",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "10 сфер",
+        "панорамные окна",
+        "вид на лес",
+        "терраса",
+        "мангал",
+        "уединение"
+      ],
+      "distance_from_moscow_km": 113,
+      "source": "https://welcome.mosreg.ru/oteli/turbaza-bagio",
+      "notes": "Небанальный вариант со сферами для двоих.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "необычно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-bagio",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Богородский округ",
+      "name": "Глэмпинг «На озерах»",
+      "type": "глэмпинг",
+      "subtype": "домики у озера",
+      "address": "СНТ Поляна, Богородский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "озеро",
+        "домики",
+        "беседка",
+        "мангальная зона",
+        "баня",
+        "летняя кухня"
+      ],
+      "distance_from_moscow_km": 60,
+      "source": "https://welcome.mosreg.ru/oteli/glemping-na-ozerah",
+      "notes": "Небольшой природный формат без ощущения крупного отеля.",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "баня"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-na-ozerah",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Клинский округ",
+      "name": "Глэмпинг «Рядом Даль»",
+      "type": "глэмпинг",
+      "subtype": "бунгало и сферы",
+      "address": "деревня Степаньково, КП Горки 9-18, 6-й квартал, 9",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "бунгало",
+        "сферы",
+        "панорамные окна",
+        "горячая купель",
+        "панорамная баня",
+        "вид на реку",
+        "велосипеды"
+      ],
+      "distance_from_moscow_km": 90,
+      "source": "https://welcome.mosreg.ru/oteli/glemping-radom-dal",
+      "notes": "Хорош для фильтра «баня/купель + необычный домик».",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "баня",
+          "купель",
+          "спорт"
+        ],
+        "vibe_tags": [
+          "необычно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-ryadom-dalь",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Дмитровский округ",
+      "name": "Глэмпинг на ферме «Российские альпаки»",
+      "type": "глэмпинг",
+      "subtype": "фермерский глэмпинг",
+      "address": "деревня Походкино, Дмитровский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Природа",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "альпаки",
+        "ферма",
+        "природа",
+        "необычное проживание"
+      ],
+      "distance_from_moscow_km": 41,
+      "source": "https://welcome.mosreg.ru/places/glampings",
+      "notes": "Подходит для сценария «ночёвка + животные/ферма».",
+      "ui_filters": {
+        "stay_formats": [
+          "глэмпинг"
+        ],
+        "setting_tags": [
+          "в лесу",
+          "на ферме"
+        ],
+        "facility_tags": [
+          "животные"
+        ],
+        "vibe_tags": [
+          "необычно",
+          "природа"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "glemping-na-ferme-rossiyskie-alьpaki",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Ногинск",
+      "name": "Глэмпинг при «Яхонты Ногинск»",
+      "type": "глэмпинг",
+      "subtype": "скандинавские домики и A-frame",
+      "address": "район озера Коверши, Богородский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа",
+        "SPA"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "озеро Коверши",
+        "A-frame",
+        "панорамные домики",
+        "SPA-комплекс",
+        "бассейн",
+        "питание"
+      ],
+      "distance_from_moscow_km": 50,
+      "source": "https://welcome.mosreg.ru/stories/glempingi-podmoskov-a",
+      "notes": "Компромисс между глэмпингом и инфраструктурой большого отеля.",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "глэмпинг",
+          "домики"
+        ],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "glemping-pri-yahonty-noginsk",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Истринский округ",
+      "name": "Palmira ISTRA Resort & SPA",
+      "type": "SPA-отель",
+      "subtype": "загородный resort",
+      "address": "Истринский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "SPA"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "бассейн",
+        "загородный отдых",
+        "рестораны"
+      ],
+      "distance_from_moscow_km": 60,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "Альтернатива крупным известным SPA-отелям.",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "бассейн",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "романтика"
+        ],
+        "distance_bucket": "30–70 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "palmira-istra-resort-and-spa",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Талдомский округ",
+      "name": "Экоотель «Лепота»",
+      "type": "экоотель",
+      "subtype": "загородный экоотель",
+      "address": "Талдомский городской округ",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "природа",
+        "экоформат",
+        "загородный отдых"
+      ],
+      "distance_from_moscow_km": 92,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "Подходит под сценарий тихого уикенда за городом.",
+      "ui_filters": {
+        "stay_formats": [
+          "отель"
+        ],
+        "setting_tags": [
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "70–120 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "ekootelь-lepota",
+      "market_id": "moscow-oblast"
+    },
+    {
+      "city": "Балашиха",
+      "name": "ArtiLand",
+      "type": "загородный клуб",
+      "subtype": "SPA / country club",
+      "address": "городской округ Балашиха",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "SPA",
+        "Еда"
+      ],
+      "budget": "высокий",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "SPA",
+        "рестораны",
+        "загородный формат",
+        "близко к Москве"
+      ],
+      "distance_from_moscow_km": 15,
+      "source": "https://welcome.mosreg.ru/places/hotels",
+      "notes": "Подходит для одной ночи или SPA-выходного недалеко от Москвы.",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA",
+          "отель"
+        ],
+        "setting_tags": [
+          "за городом"
+        ],
+        "facility_tags": [
+          "SPA",
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "artiland",
+      "market_id": "moscow-oblast"
+    }
+  ]
+}

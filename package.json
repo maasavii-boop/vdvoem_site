@@ -1,0 +1,21 @@
+{
+  "name": "vdvoem-date-wheel-v8",
+  "version": "8.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "prestart": "node scripts/ensure-cities.js",
+    "start": "node server.js",
+    "predev": "node scripts/ensure-cities.js",
+    "dev": "node --watch server.js",
+    "sync:cities": "node scripts/sync-cities.js",
+    "sync:russia": "node scripts/sync-russia.js --refresh",
+    "sync:russia:full": "node scripts/sync-russia.js --full --refresh",
+    "import:osm": "node scripts/import-osm.js",
+    "sync:locations": "node scripts/sync-russia.js --refresh",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
