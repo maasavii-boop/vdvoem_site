@@ -1,0 +1,1148 @@
+{
+  "market": {
+    "id": "moscow",
+    "label": "Москва",
+    "country_code": "RU",
+    "region": "Москва",
+    "type": "city",
+    "enabled": true,
+    "import": {
+      "provider": "osm",
+      "area": "Москва",
+      "region": null,
+      "auto_publish": true
+    }
+  },
+  "locations": [
+    {
+      "city": "Москва",
+      "name": "Нескучный сад",
+      "type": "парк",
+      "address": "Пушкинская наб., Москва",
+      "best_for": [
+        "Природа",
+        "Романтика",
+        "Активное"
+      ],
+      "budget": "бесплатно",
+      "subtype": "парк",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в городе"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "neskuchnyy-sad",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Государственная Третьяковская галерея",
+      "type": "галерея",
+      "address": "Лаврушинский пер., 10",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "средний",
+      "subtype": "галерея",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в городе"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "gosudarstvennaya-tretьyakovskaya-galereya",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "ГМИИ им. А. С. Пушкина",
+      "type": "музей",
+      "address": "ул. Волхонка, 12",
+      "best_for": [
+        "Культура"
+      ],
+      "budget": "средний",
+      "subtype": "музей",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "gmii-im-a-s-pushkina",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Кубикулум",
+      "type": "квест-комнаты",
+      "address": "Большая Новодмитровская ул., 36 стр. 3",
+      "best_for": [
+        "Игры",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "subtype": "квест-комнаты",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "необычно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "kubikulum",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "LEMUR pottery studio",
+      "type": "гончарная мастерская",
+      "address": "Садовая-Черногрязская ул., 3Б, стр.1",
+      "best_for": [
+        "Творчество"
+      ],
+      "budget": "средний",
+      "subtype": "гончарная мастерская",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "творчески"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "lemur-pottery-studio",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Time Club Убежище",
+      "type": "антикафе/настолки",
+      "address": "Архангельский пер., 7 стр.1",
+      "best_for": [
+        "Игры",
+        "Дома"
+      ],
+      "budget": "низкий",
+      "subtype": "антикафе/настолки",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [
+          "ресторан"
+        ],
+        "vibe_tags": [],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "time-club-ubezhische",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Смотровая площадка РАН",
+      "type": "смотровая",
+      "address": "Ленинский пр-т, 32А стр.1",
+      "best_for": [
+        "Романтика",
+        "Природа"
+      ],
+      "budget": "бесплатно",
+      "subtype": "смотровая",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "smotrovaya-ploschadka-ran",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Бибабо",
+      "type": "боулинг",
+      "address": "Карманицкий пер., 9",
+      "best_for": [
+        "Активное",
+        "Игры"
+      ],
+      "budget": "средний",
+      "subtype": "боулинг",
+      "overnight": false,
+      "season": "all",
+      "features": [],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "bibabo",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Парк искусств «Музеон»",
+      "type": "парк",
+      "subtype": "парк",
+      "address": "ул. Крымский Вал, 2",
+      "best_for": [
+        "Природа",
+        "Романтика",
+        "Творчество"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "прогулка",
+        "современное искусство",
+        "набережная"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика",
+          "творчески"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-iskusstv-muzeon",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Парк «Сокольники»",
+      "type": "парк",
+      "subtype": "парк",
+      "address": "ул. Сокольнический Вал, 1, стр. 1",
+      "best_for": [
+        "Природа",
+        "Активное",
+        "Романтика"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "велопрогулка",
+        "пикник",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-sokolьniki",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Мещерский парк",
+      "type": "парк",
+      "subtype": "парк",
+      "address": "Мещерский парк, Москва",
+      "best_for": [
+        "Природа",
+        "Активное",
+        "Романтика"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "лес",
+        "веломаршруты",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в городе",
+          "в лесу"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "mescherskiy-park",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Флотилия «Рэдиссон Ройал»",
+      "type": "речная прогулка",
+      "subtype": "речная прогулка",
+      "address": "наб. Тараса Шевченко",
+      "best_for": [
+        "Романтика",
+        "Мини-путешествие"
+      ],
+      "budget": "высокий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "Москва-река",
+        "виды города",
+        "вечер"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в городе",
+          "у воды"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "15 000 ₽+"
+      },
+      "slug": "flotiliya-redisson-royal",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Комплекс «Мореон»",
+      "type": "аквапарк/спа",
+      "subtype": "аквапарк/спа",
+      "address": "Голубинская ул., 16",
+      "best_for": [
+        "Активное",
+        "Романтика",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "аквапарк",
+        "термы",
+        "спа"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [
+          "SPA"
+        ],
+        "setting_tags": [],
+        "facility_tags": [
+          "SPA"
+        ],
+        "vibe_tags": [
+          "активно",
+          "необычно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "kompleks-moreon",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Усадьба Измайлово",
+      "type": "музей-усадьба",
+      "subtype": "музей-усадьба",
+      "address": "городок им. Баумана, 2, стр. 14",
+      "best_for": [
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "история",
+        "архитектура",
+        "прогулка"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "usadьba-izmaylovo",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Парк Горького",
+      "type": "парк",
+      "subtype": "парк",
+      "address": "ул. Крымский Вал, 9",
+      "best_for": [
+        "Романтика",
+        "Активное",
+        "Природа"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "набережная",
+        "прогулка",
+        "велосипеды"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [
+          "спорт"
+        ],
+        "vibe_tags": [
+          "активно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-gorьkogo",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "ВДНХ",
+      "type": "парк/выставочный комплекс",
+      "subtype": "парк/выставочный комплекс",
+      "address": "проспект Мира, 119",
+      "best_for": [
+        "Культура",
+        "Активное",
+        "Еда",
+        "Необычное"
+      ],
+      "budget": "любой",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "музеи",
+        "павильоны",
+        "прогулка",
+        "каток зимой"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "активно",
+          "гастро",
+          "культурно",
+          "необычно"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "любой бюджет"
+      },
+      "slug": "vdnh",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Ботанический сад МГУ «Аптекарский огород»",
+      "type": "ботанический сад",
+      "subtype": "ботанический сад",
+      "address": "проспект Мира, 26, стр. 1",
+      "best_for": [
+        "Природа",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "оранжереи",
+        "цветы",
+        "фотопрогулка"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "botanicheskiy-sad-mgu-aptekarskiy-ogorod",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Музей-заповедник «Царицыно»",
+      "type": "парк/музей",
+      "subtype": "парк/музей",
+      "address": "Дольская ул., 1",
+      "best_for": [
+        "Природа",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "дворец",
+        "парк",
+        "пруды"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "у воды"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "muzey-zapovednik-tsaritsyno",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Музей-заповедник «Коломенское»",
+      "type": "парк/музей",
+      "subtype": "парк/музей",
+      "address": "проспект Андропова, 39",
+      "best_for": [
+        "Природа",
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "история",
+        "вид на реку",
+        "парк"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "muzey-zapovednik-kolomenskoe",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Северный речной вокзал и парк",
+      "type": "парк/набережная",
+      "subtype": "парк/набережная",
+      "address": "Ленинградское ш., 51",
+      "best_for": [
+        "Романтика",
+        "Природа",
+        "Мини-путешествие"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "набережная",
+        "архитектура",
+        "закат"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "severnyy-rechnoy-vokzal-i-park",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Парк «Зарядье»",
+      "type": "парк",
+      "subtype": "парк",
+      "address": "ул. Варварка, 6",
+      "best_for": [
+        "Романтика",
+        "Культура",
+        "Природа"
+      ],
+      "budget": "бесплатно",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "парящий мост",
+        "виды",
+        "центр Москвы"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [
+          "в городе"
+        ],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "природа",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "0 ₽"
+      },
+      "slug": "park-zaryadьe",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Московский планетарий",
+      "type": "планетарий",
+      "subtype": "планетарий",
+      "address": "Садовая-Кудринская ул., 5, стр. 1",
+      "best_for": [
+        "Романтика",
+        "Культура",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "звезды",
+        "наука",
+        "вечер"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "необычно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "moskovskiy-planetariy",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Музей русского импрессионизма",
+      "type": "музей",
+      "subtype": "музей",
+      "address": "Ленинградский проспект, 15, стр. 11",
+      "best_for": [
+        "Культура",
+        "Романтика"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "искусство",
+        "выставки"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "muzey-russkogo-impressionizma",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "ГЭС-2",
+      "type": "дом культуры/арт-пространство",
+      "subtype": "дом культуры/арт-пространство",
+      "address": "Болотная наб., 15",
+      "best_for": [
+        "Культура",
+        "Творчество",
+        "Романтика"
+      ],
+      "budget": "низкий",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "современное искусство",
+        "архитектура"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "культурно",
+          "романтика",
+          "творчески"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "до 5 000 ₽"
+      },
+      "slug": "ges-2",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Хлебозавод №9",
+      "type": "городское пространство",
+      "subtype": "городское пространство",
+      "address": "Новодмитровская ул., 1",
+      "best_for": [
+        "Еда",
+        "Творчество",
+        "Необычное"
+      ],
+      "budget": "любой",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "кафе",
+        "дизайн",
+        "магазины"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "необычно",
+          "творчески"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "любой бюджет"
+      },
+      "slug": "hlebozavod-9",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Дизайн-завод Flacon",
+      "type": "городское пространство",
+      "subtype": "городское пространство",
+      "address": "Большая Новодмитровская ул., 36",
+      "best_for": [
+        "Еда",
+        "Творчество",
+        "Необычное"
+      ],
+      "budget": "любой",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "ивенты",
+        "кафе",
+        "дизайн"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "необычно",
+          "творчески"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "любой бюджет"
+      },
+      "slug": "dizayn-zavod-flacon",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Красный Октябрь",
+      "type": "городское пространство",
+      "subtype": "городское пространство",
+      "address": "Берсеневская наб.",
+      "best_for": [
+        "Еда",
+        "Романтика",
+        "Культура"
+      ],
+      "budget": "любой",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "набережная",
+        "рестораны",
+        "центр"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "гастро",
+          "культурно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "любой бюджет"
+      },
+      "slug": "krasnyy-oktyabrь",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Останкинская телебашня",
+      "type": "смотровая",
+      "subtype": "смотровая",
+      "address": "ул. Академика Королёва, 15, корп. 2",
+      "best_for": [
+        "Романтика",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": false,
+      "season": "all",
+      "features": [
+        "панорама",
+        "высота"
+      ],
+      "distance_from_moscow_km": null,
+      "source": null,
+      "notes": "",
+      "ui_filters": {
+        "stay_formats": [],
+        "setting_tags": [],
+        "facility_tags": [],
+        "vibe_tags": [
+          "необычно",
+          "романтика"
+        ],
+        "distance_bucket": "расстояние уточнить",
+        "trip_length_tags": [
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "ostankinskaya-telebashnya",
+      "market_id": "moscow"
+    },
+    {
+      "city": "Москва",
+      "name": "Che Hotel",
+      "type": "дизайн-отель",
+      "subtype": "арт-отель",
+      "address": "ул. Малая Дмитровка, 29, стр. 3",
+      "best_for": [
+        "Мини-путешествие",
+        "Романтика",
+        "Культура",
+        "Необычное"
+      ],
+      "budget": "средний",
+      "overnight": true,
+      "season": "all",
+      "features": [
+        "дизайнерские номера",
+        "арт-концепция",
+        "центр Москвы",
+        "рядом театр/галереи",
+        "завтрак"
+      ],
+      "distance_from_moscow_km": 0,
+      "source": "https://www.chehotel.org/",
+      "notes": "Для сценария «сменить обстановку, не уезжая из Москвы».",
+      "ui_filters": {
+        "stay_formats": [
+          "отель"
+        ],
+        "setting_tags": [
+          "в городе"
+        ],
+        "facility_tags": [
+          "ресторан"
+        ],
+        "vibe_tags": [
+          "культурно",
+          "необычно",
+          "романтика"
+        ],
+        "distance_bucket": "до 30 км",
+        "trip_length_tags": [
+          "1 ночь",
+          "2 ночи",
+          "без ночёвки"
+        ],
+        "price_filter": "5 000–15 000 ₽"
+      },
+      "slug": "che-hotel",
+      "market_id": "moscow"
+    }
+  ]
+}

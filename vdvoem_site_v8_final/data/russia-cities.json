@@ -1,0 +1,15 @@
+{
+  "meta":{"source":"fallback","count":20,"note":"Резервный список. При первом npm start/dev автоматически заменяется полным каталогом."},
+  "cities":[
+    {"id":"moskva-moskva","name":"Москва","region":"Москва"},{"id":"sankt-peterburg-sankt-peterburg","name":"Санкт-Петербург","region":"Санкт-Петербург"},
+    {"id":"novosibirsk-novosibirskaya-oblast","name":"Новосибирск","region":"Новосибирская область"},{"id":"ekaterinburg-sverdlovskaya-oblast","name":"Екатеринбург","region":"Свердловская область"},
+    {"id":"kazan-tatarstan","name":"Казань","region":"Татарстан"},{"id":"nizhniy-novgorod-nizhegorodskaya-oblast","name":"Нижний Новгород","region":"Нижегородская область"},
+    {"id":"krasnoyarsk-krasnoyarskiy-kray","name":"Красноярск","region":"Красноярский край"},{"id":"chelyabinsk-chelyabinskaya-oblast","name":"Челябинск","region":"Челябинская область"},
+    {"id":"samara-samarskaya-oblast","name":"Самара","region":"Самарская область"},{"id":"ufa-bashkortostan","name":"Уфа","region":"Башкортостан"},
+    {"id":"rostov-na-donu-rostovskaya-oblast","name":"Ростов-на-Дону","region":"Ростовская область"},{"id":"krasnodar-krasnodarskiy-kray","name":"Краснодар","region":"Краснодарский край"},
+    {"id":"omsk-omskaya-oblast","name":"Омск","region":"Омская область"},{"id":"voronezh-voronezhskaya-oblast","name":"Воронеж","region":"Воронежская область"},
+    {"id":"perm-permskiy-kray","name":"Пермь","region":"Пермский край"},{"id":"volgograd-volgogradskaya-oblast","name":"Волгоград","region":"Волгоградская область"},
+    {"id":"saratov-saratovskaya-oblast","name":"Саратов","region":"Саратовская область"},{"id":"tyumen-tyumenskaya-oblast","name":"Тюмень","region":"Тюменская область"},
+    {"id":"tolyatti-samarskaya-oblast","name":"Тольятти","region":"Самарская область"},{"id":"izhevsk-udmurtiya","name":"Ижевск","region":"Удмуртия"}
+  ]
+}
